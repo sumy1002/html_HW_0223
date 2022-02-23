@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(87, 100, 100);
+}
+
+#main_title{
+    text-shadow: 1px 1px 8px #beb3b3;
+    word-spacing:2em;
+    color:rgb(227, 255, 255);
+}
+#main_title:hover
+{
+    text-shadow: 1px 1px 20px #ffffff;
+    word-spacing:2em;
+    color:rgb(227, 255, 255);
+}
+a:link{
+    text-shadow: 1px 1px 4px #000000;
+    color:rgb(227, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: 1px 1px 4px #000000;
+    color:rgb(223, 173, 252);
+    font-size: 20px;
+    text-decoration: none;
+}
+a:visited{
+    text-shadow: 1px 1px 4px #000000;
+    color:rgb(203, 209, 236);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#hr1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(161, 161, 161, 0.377), rgba(255, 255, 255, 0.75), rgba(161, 161, 161, 0.377));
+}
+
+#about_word{
+    font-size: 23px;
+    text-shadow: 1px 1px 4px #000000;
+    color:rgb(227, 255, 255);
+}
+
+#album{
+    width: 250px;
+    float: none;
+    border-radius: 3ch;
+    margin: 50px;
+}
+
+#pic{
+    width: 400px;
+    height: 400px;
+    overflow:hidden;
+}
+
+#video_word{
+    font-size: 20px;
+    padding-top: 145px;
+    padding-bottom: 157px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#msg_Q{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
